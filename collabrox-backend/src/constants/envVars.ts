@@ -1,0 +1,16 @@
+import dotenv from 'dotenv';
+dotenv.config();
+export const NODE_ENV: string = process.env.NODE_ENV as string;
+export const PORT: string = process.env.PORT as string;
+export const PRIMARY_MONGODB_URI: string = process.env.PRIMARY_MONGODB_URI as string;
+export const FRONTEND_BASE_URL: string = process.env.FRONTEND_BASE_URL as string;
+export const JWT_SECRET_TOKEN: string = process.env.JWT_SECRET_TOKEN as string;
+export const GOOGLE_WEB_OAUTH_CLIENT_ID: string = process.env.GOOGLE_WEB_OAUTH_CLIENT_ID as string;
+export const GOOGLE_WEB_OAUTH_CLIENT_SECRET: string = process.env.GOOGLE_WEB_OAUTH_CLIENT_SECRET as string;
+export const GITHUB_OAUTH_CLIENT_ID: string = process.env.GITHUB_OAUTH_CLIENT_ID as string;
+export const GITHUB_OAUTH_CLIENT_SECRET: string = process.env.GITHUB_OAUTH_CLIENT_SECRET as string;
+export const EMAIL_HOST: string = process.env.EMAIL_HOST as string;
+export const EMAIL_PORT: string = process.env.EMAIL_PORT as string;
+export const EMAIL_USER: string = process.env.EMAIL_USER as string;
+export const EMAIL_APP_PASS: string = process.env.EMAIL_APP_PASS as string;
+export const EMAIL_FROM: string = process.env.EMAIL_FROM as string;

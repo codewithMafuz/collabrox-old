@@ -1,0 +1,36 @@
+# Ignore build output
+.next/
+out/
+build/
+dist/
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore log files
+*.log
+
+# Ignore npm debugging log file
+npm-debug.log*
+
+# Ignore yarn errors log file
+yarn-error.log
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# others
+cors-google-cloud-platform.json
+storage.rules

@@ -1,0 +1,24 @@
+@keyframes onAutoFillStart {
+  from {
+  }
+  to {
+  }
+}
+
+/* WebKit browsers (Chrome) */
+.__input-email-field:-webkit-autofill {
+  animation-name: onAutoFillStart;
+  animation-duration: 0.001s;
+}
+
+/* Firefox */
+.__input-email-field:-moz-autofill {
+  animation-name: onAutoFillStart;
+  animation-duration: 0.001s;
+}
+
+/* Modern browsers (still not found occurance)*/
+.__input-email-field:autofill {
+  animation-name: onAutoFillStart;
+  animation-duration: 0.001s;
+}
